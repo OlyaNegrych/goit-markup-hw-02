@@ -176,9 +176,42 @@ color: var(--text-color);
 
 /* Портфолио */
 
+.portfolio {
+  background-color: #E5E5E5;  
+}
 
+.filtr-item {
+font-size: 16px;
+line-height: 1.6;
+font-weight: 500;
+text-align: center;
+letter-spacing: 3%;
+color: var(--title-text-color);
+}
 
+.filtr-item:hover,
+.filtr-item:focus {
+color: #FFFFFF;
+background-color: var(--accent-color);
+}
 
+.portfolio-item-title {
+font-size: 18px;
+line-height: 2;
+font-weight: 700;
+text-align: left;
+letter-spacing: 6%;
+color: var(--title-text-color);
+}
+
+.portfolio-item-text {
+font-size: 16px;
+line-height: 1.9;
+font-weight: 400;
+text-align: left;
+letter-spacing: 3%;
+color: var(--text-color)
+}
 
 /* Footer */
 .logo-footer {
